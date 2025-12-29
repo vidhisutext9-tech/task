@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- Que 1 -->
+    <h2>1. create a divs with top, right, left, bottom borders with border style, border width, border color.</h2>
+    <h2>Top Border</h2>
+    <div class="box border-top">
+        This div has only a top border.
+    </div>
+
+    <h2>Right Border</h2>
+    <div class="box border-right">
+        This div has only a right border.
+    </div>
+
+    <h2>Bottom Border</h2>
+    <div class="box border-bottom">
+        This div has only a bottom border.
+    </div>
+
+    <h2>Left Border</h2>
+    <div class="box border-left">
+        This div has only a left border.
+    </div>
+
+    <!-- Que 2 -->
+    <h2>2. create a div with pseudo class hover </h2>
+    <div class="hover-box">
+        Hover over me
+    </div>
+
+    <!-- Que 3 -->
+     <h2>3. create a anchor tag that show pseudo class like :acitve and :visited</h2>
+     <p>
+        <a href="https://example.com" class="normal-link" target="_blank">
+            Normal Anchor Link
+        </a>
+
+        <a href="https://example.com" class="pseudo-link" target="_blank">
+            Pseudo-Class Styled Link
+        </a>
+    </p>
+
+    <!-- Que 4 -->
+     <h2>4. create a section with different html tag and that show pesudo element like first-letter, first-line, before, after, selection.</h2>
+     <section>
+        <h2>Pseudo Elements Demo</h2>
+
+        <p>
+            This paragraph demonstrates multiple CSS pseudo-elements.
+            The first letter is bigger and blue, the first line is green,
+            and when you select this text, it will have a red background
+            with white text.
+        </p>
+
+        <span>This is a span element</span>
+    </section> 
+
+    <!-- Que 5 -->
+
+    <h2>5. Show different types of display like none, block, inline, inline-block, flex, grid.</h2>
+    <!-- BLOCK (default) -->
+  <section>
+  <h2>display: block (default h1)</h2>
+  <h2 class="box block">Block Heading 1</h2>
+  <h2 class="box block">Block Heading 2</h2>
+  </section>
+
+  <!-- INLINE -->
+   <section>
+  <h2>display: inline</h2>
+  <h2 class="box inline">Inline Heading 1</h2>
+  <h2 class="box inline">Inline Heading 2</h2>
+  </section>
+
+  <!-- INLINE-BLOCK -->
+   <section>
+  <h2>1.display: inline-block</h2>
+  <h2 class="box inline-block">Inline-Block 1</h2>
+  <h2 class="box inline-block">Inline-Block 2</h2>
+  </section>
+
+  <!-- NONE -->
+   <section>
+  <h2>2.display: none</h2>
+  <h2 class="box none">You will NOT see this</h2>
+  <p>This text appears because the h1 above is hidden.</p>
+  </section>
+
+  <!-- FLEX -->
+   <section>
+  <h2>3.display: flex</h2>
+  <div class="flex-container">
+    <h2 class="box">Flex 1</h2>
+    <h2 class="box">Flex 2</h2>
+    <h2 class="box">Flex 3</h2>
+  </div>
+  </section>
+
+  <!-- GRID -->
+   <section>
+  <h2>4.display: grid</h2>
+  <div class="grid-container">
+    <h2 class="box">Grid 1</h2>
+    <h2 class="box">Grid 2</h2>
+    <h2 class="box">Grid 3</h2>
+    <h2 class="box">Grid 4</h2>
+  </div>
+  </section>
+
+  <!-- Que 6 -->
+   
+   <h2>6. create a section that show position property like absolute, fixed, sticky, relative.</h2>
+   <section>
+   <!-- RELATIVE -->
+  <h2>position: relative</h2>
+  <p class="box relative">
+    I am relative (moved from my normal position)
+  </p>
+
+  <!-- ABSOLUTE -->
+  <h2>position: absolute</h2>
+  <div class="parent">
+    <p class="box absolute">
+      I am absolute (inside parent)
+    </p>
+  </div>
+
+  <!-- STICKY -->
+  <h2>position: sticky</h2>
+  <p class="box sticky">
+    I stick to the top when you scroll
+  </p>
+
+  <p>Scroll down to see sticky behavior...</p>
+
+  <!-- FIXED -->
+  <h2>position: fixed</h2>
+  <p class="box fixed">
+    I am fixed (always visible)
+  </p>
+  </section>
+
+  <!-- Que 7 -->
+   <h2>7. create div that show a image when user hover that div image will be zoom-in or zoom-out.</h2>
+   <h2>1.Hover to Zoom Image (overflow: visible)</h2>
+<div class="container">
+  <div class="img-box visible">
+    <img src="1.jpg" alt="sample">
+  </div>
+</div>
+<p>Image overflows outside the box.</p>
+
+<hr>
+
+<h2>2.Hover to Zoom Image (overflow: hidden)</h2>
+<div class="container">
+  <div class="img-box hidden">
+    <img src="1.jpg" alt="sample">
+  </div>
+</div>
+<p>Zoomed image is clipped inside the box.</p>
+
+<hr>
+
+<h2>3.Hover to Zoom Image (overflow: auto)</h2>
+<div class="container">
+  <div class="img-box auto">
+    <img src="1.jpg" alt="sample">
+  </div>
+</div>
+<p>Scrollbars appear when image overflows.</p>
+
+<!-- Que 8 -->
+ <h2>8. show html list with different type of bullets with css {list-style-type, list-style-position, list-style-image, }</h2>
+ <h1>CSS List Style Properties</h1>
+
+<!-- LIST-STYLE-TYPE -->
+<h2>list-style-type</h2>
+
+<h3>Unordered List (disc - default)</h3>
+<ul class="disc">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+
+<h3>Unordered List (circle)</h3>
+<ul class="circle">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+
+<h3>Unordered List (square)</h3>
+<ul class="square">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+
+<h3>Unordered List (none)</h3>
+<ul class="none">
+  <li>No bullets</li>
+  <li>No bullets</li>
+  <li>No bullets</li>
+</ul>
+
+<hr>
+
+<!-- LIST-STYLE-POSITION -->
+<h2>list-style-position</h2>
+
+<h3>Position: outside (default)</h3>
+<ul class="square outside">
+  <li>This bullet is outside the content box</li>
+  <li>Second item</li>
+</ul>
+
+<h3>Position: inside</h3>
+<ul class="square inside">
+  <li>This bullet is inside the content box</li>
+  <li>Second item</li>
+</ul>
+
+<hr>
+
+<!-- LIST-STYLE-IMAGE -->
+<h2>list-style-image</h2>
+
+<ul class="image">
+  <img src="1.jpg" alt="Sample" width="40" height="35"><li>Custom image bullet</li>
+  <img src="1.jpg" alt="Sample" width="40" height="35"><li>Custom image bullet</li>
+  <img src="1.jpg" alt="Sample" width="40" height="35"><li>Custom image bullet</li>
+</ul>
+
+<!-- Que 9 -->
+ <h2>9. create a section that show css visibility property like hidden and visible.</h2>
+ <section>
+ <h2>CSS Visibility Property Demo</h2>
+
+<h2>Hover on the images to hide/show them</h2>
+
+<div class="image-container">
+  <div class="image-box">
+    <img src="1.jpg" alt="Image 1">
+    <span>Hidden!</span>
+  </div>
+  <div class="image-box">
+    <img src="1.jpg" alt="Image 2">
+    <span>Hidden!</span>
+  </div>
+  <div class="image-box">
+    <img src="1.jpg" alt="Image 3">
+    <span>Hidden!</span>
+  </div>
+</div>
+</section>
+
+<!-- Que 10 -->
+ <h2>10.create a section that show different type of cursors like pointer, auto, all-scroll, copy, default, move, e-resize, w-resize, n-resize, s-resize, text, wait, help, progress, not-allowed, zoom-in, zoom-out, no-drop (Min. 8 types).</h2>
+ <section>
+    <h2>CSS Cursor Types Demo</h2>
+
+<h2>Hover on the boxes to see different cursors</h2>
+
+<div class="cursor-container">
+  <div class="cursor-box pointer">Pointer</div>
+  <div class="cursor-box auto">Auto</div>
+  <div class="cursor-box all-scroll">All Scroll</div>
+  <div class="cursor-box copy">Copy</div>
+  <div class="cursor-box move">Move</div>
+  <div class="cursor-box text">Text</div>
+  <div class="cursor-box wait">Wait</div>
+  <div class="cursor-box help">Help</div>
+  <div class="cursor-box not-allowed">Not Allowed</div>
+  <div class="cursor-box zoom-in">Zoom In</div>
+  <div class="cursor-box zoom-out">Zoom Out</div>
+  <div class="cursor-box e-resize">E-Resize</div>
+  <div class="cursor-box w-resize">W-Resize</div>
+  <div class="cursor-box n-resize">N-Resize</div>
+  <div class="cursor-box s-resize">S-Resize</div>
+</div>
+ </section>
+
+ <!-- Que 11 -->
+  <h2>11.create a btn with div and css</h2>
+  <section>
+  <h2>Div as Button Example</h2>
+
+<div class="btn" onclick="alert('Button clicked!')">Click Me</div>
+</section>
+
+</body>
+</html>

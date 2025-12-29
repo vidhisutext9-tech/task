@@ -1,0 +1,428 @@
+body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .box {
+            width: 300px;
+            padding: 20px;
+            margin: 10px 0;
+            background-color: brown;
+        }
+
+        /* Border classes */
+        .border-top {
+            border-top: 10px solid rgb(0, 0, 0);
+        
+        }
+
+        .border-right {
+            border-right: 10px solid  rgb(0, 0, 0);
+        }
+
+        .border-bottom {
+            border-bottom: 10px solid rgb(0, 0, 0);
+        }
+
+        .border-left {
+            border-left: 10px solid  rgb(0, 0, 0);
+        }
+
+        /* Que 2 */
+    body{
+            font-family: Arial, sans-serif;
+            padding: 50px;
+        }
+
+        .hover-box {
+            width: 200px;
+            height: 100px;
+            background-color: steelblue;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.4s ease;
+            position: relative;
+            cursor: pointer;
+        }
+
+        /* Hover effect */
+        .hover-box:hover {
+            background-color: brown;  
+            width: 260px;              
+            height: 130px;
+            font-size: larger;
+            transform: translateX(30px); 
+        }
+
+        /* Que 3 */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+        }
+
+        .normal-link {
+            margin-right: 30px;
+        }
+
+        .pseudo-link:link {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .pseudo-link:visited {
+            color: purple;
+        }
+
+        .pseudo-link:active {
+            color: red;
+        }
+
+        .pseudo-link:hover {
+            text-decoration: underline;
+        }
+
+        /* Que 4 */
+    
+        section {
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* first-letter */
+        p::first-letter {
+            font-size: 30px;
+            font-weight: bold;
+            color: blue;
+        }
+
+        /* first-line */
+        p::first-line {
+            color: green;
+        }
+
+        /* selection */
+        p::selection {
+            background-color: red;
+            color: white;
+        }
+
+        span::before {
+            content: "👉 ";
+        }
+
+        span::after {
+            content: " ✔";
+            color: green;
+        }
+
+
+        /* Que 5 */
+        h2 {
+      margin-top: 40px;
+      color: darkblue;
+    }
+
+    /* Display types */
+    .block {
+      display: block;
+    }
+
+    .inline {
+      display: inline;
+    }
+
+    .inline-block {
+      display: inline-block;
+      width: 200px;
+    }
+
+    .none {
+      display: none;
+    }
+
+    .flex-container {
+      display: flex;
+      gap: 10px;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    /* Que 6 */
+    body {
+      font-family: Arial, sans-serif;
+      height: 2000px; /* needed to see fixed & sticky */
+    }
+
+    /* RELATIVE */
+    .relative {
+      position: relative;
+      top: 20px;
+      left: 20px;
+      background-color: lightblue;
+    }
+
+    /* ABSOLUTE */
+    .parent {
+      position: relative;
+      height: 150px;
+      border: 2px dashed gray;
+      margin-bottom: 40px;
+    }
+
+    .absolute {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background-color: lightcoral;
+    }
+
+    /* FIXED */
+    .fixed {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background-color: lightgreen;
+    }
+
+    /* STICKY */
+    .sticky {
+      position: sticky;
+      top: 0;
+      background-color: khaki;
+    }
+
+    /* Que 7 */
+    body {
+    font-family: Arial, sans-serif;
+  }
+
+  h2 {
+    margin-top: 50px;
+  }
+
+  .container {
+    display: flex;
+    gap: 30px;
+  }
+
+  /* common box style */
+  .img-box {
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+  }
+
+  .img-box img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+  }
+
+  /* zoom effect */
+  .img-box:hover img {
+    transform: scale(1.5);
+  }
+
+  /* overflow types */
+  .visible {
+    overflow: visible;
+  }
+
+  .hidden {
+    overflow: hidden;
+  }
+
+  .auto {
+    overflow: auto;
+  }
+
+  /* Que 8 */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  h2 {
+    margin-top: 40px;
+    color: darkblue;
+  }
+
+  ul {
+    margin-bottom: 20px;
+  }
+
+  /* list-style-type examples */
+  .disc {
+    list-style-type: disc;
+  }
+
+  .circle {
+    list-style-type: circle;
+  }
+
+  .square {
+    list-style-type: square;
+  }
+
+  .none {
+    list-style-type: none;
+  }
+
+  /* list-style-position */
+  .inside {
+    list-style-position: inside;
+  }
+
+  .outside {
+    list-style-position: outside;
+  }
+
+  /* Que 9 */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  h2 {
+    margin-top: 40px;
+    color: darkblue;
+  }
+
+  .image-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  .image-box {
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .image-box img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  /* HIDE image on hover */
+  .image-box:hover img {
+    visibility: hidden;
+  }
+
+  /* Optional: show text instead when hidden */
+  .image-box span {
+    display: block;
+    text-align: center;
+    line-height: 150px;
+    font-weight: bold;
+    color: red;
+    visibility: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-box:hover span {
+    visibility: visible;
+  }
+
+  /* Position relative for overlay */
+  .image-box {
+    position: relative;
+  }
+
+  /* Que 10 */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  h2 {
+    margin-top: 40px;
+    color: darkblue;
+  }
+
+  .cursor-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .cursor-box {
+    width: 150px;
+    height: 100px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #f0f0f0;
+    transition: background 0.3s;
+    cursor: default; /* default cursor */
+  }
+
+  .cursor-box:hover {
+    background-color: #d0eaff;
+  }
+
+  /* Cursor types */
+  .pointer { cursor: pointer; }
+  .auto { cursor: auto; }
+  .all-scroll { cursor: all-scroll; }
+  .copy { cursor: copy; }
+  .move { cursor: move; }
+  .text { cursor: text; }
+  .wait { cursor: wait; }
+  .help { cursor: help; }
+  .not-allowed { cursor: not-allowed; }
+  .zoom-in { cursor: zoom-in; }
+  .zoom-out { cursor: zoom-out; }
+  .e-resize { cursor: e-resize; }
+  .w-resize { cursor: w-resize; }
+  .n-resize { cursor: n-resize; }
+  .s-resize { cursor: s-resize; }
+
+  /* Que 11 */
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s, transform 0.1s;
+  }
+
+  /* Hover effect */
+  .btn:hover {
+    background-color: #45a049;
+  }
+
+  /* Click effect */
+  .btn:active {
+    transform: scale(0.95);
+  }
