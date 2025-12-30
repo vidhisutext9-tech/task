@@ -33,11 +33,6 @@ body {
         }
 
         /* Que 2 */
-    body{
-            font-family: Arial, sans-serif;
-            padding: 50px;
-        }
-
         .hover-box {
             width: 200px;
             height: 100px;
@@ -61,11 +56,6 @@ body {
         }
 
         /* Que 3 */
-        body {
-            font-family: Arial, sans-serif;
-            padding: 40px;
-        }
-
         .normal-link {
             margin-right: 30px;
         }
@@ -163,12 +153,7 @@ body {
     }
 
     /* Que 6 */
-    body {
-      font-family: Arial, sans-serif;
-      height: 2000px; /* needed to see fixed & sticky */
-    }
 
-    /* RELATIVE */
     .relative {
       position: relative;
       top: 20px;
@@ -176,7 +161,6 @@ body {
       background-color: lightblue;
     }
 
-    /* ABSOLUTE */
     .parent {
       position: relative;
       height: 150px;
@@ -191,7 +175,6 @@ body {
       background-color: lightcoral;
     }
 
-    /* FIXED */
     .fixed {
       position: fixed;
       bottom: 10px;
@@ -199,7 +182,6 @@ body {
       background-color: lightgreen;
     }
 
-    /* STICKY */
     .sticky {
       position: sticky;
       top: 0;
@@ -207,10 +189,7 @@ body {
     }
 
     /* Que 7 */
-    body {
-    font-family: Arial, sans-serif;
-  }
-
+  
   h2 {
     margin-top: 50px;
   }
@@ -252,9 +231,6 @@ body {
   }
 
   /* Que 8 */
-  body {
-    font-family: Arial, sans-serif;
-  }
 
   h2 {
     margin-top: 40px;
@@ -292,10 +268,7 @@ body {
   }
 
   /* Que 9 */
-  body {
-    font-family: Arial, sans-serif;
-  }
-
+  
   h2 {
     margin-top: 40px;
     color: darkblue;
@@ -349,10 +322,7 @@ body {
   }
 
   /* Que 10 */
-  body {
-    font-family: Arial, sans-serif;
-  }
-
+  
   h2 {
     margin-top: 40px;
     color: darkblue;
@@ -399,10 +369,7 @@ body {
   .s-resize { cursor: s-resize; }
 
   /* Que 11 */
-  body {
-    font-family: Arial, sans-serif;
-  }
-
+  
   .btn {
     display: inline-block;
     padding: 12px 25px;
@@ -428,11 +395,7 @@ body {
   }
 
   /* Que 12 */
-  body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-  }
-
+  
   h2 {
     margin-top: 40px;
     color: darkblue;
@@ -465,3 +428,156 @@ body {
   .contrast { filter: contrast(200%); }
   .drop-shadow { filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5)); }
   .saturate { filter: saturate(200%); }
+
+  /* Que 13 */
+
+        .color-box {
+            width: 200px;
+            height: 100px;
+            margin-bottom: 20px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        /* Color syntax examples */
+        .hex-color {
+            background-color: #ff5733;
+        }
+
+        .rgb-color {
+            background-color: rgb(46, 134, 193);
+        }
+
+        .rgba-color {
+            background-color: rgba(40, 180, 99, 0.7);
+        }
+
+        .hsl-color {
+            background-color: hsl(280, 70%, 50%);
+        }
+
+        .hsla-color {
+            background-color: hsla(200, 80%, 50%, 0.7);
+        }
+
+        .name-color {
+            background-color: teal;
+        }
+
+        /* Que 14 */
+
+        p {
+            color: blue;
+        }
+
+        .class-selector {
+            background-color: lightgreen;
+            padding: 10px;
+        }
+
+        #id-selector {
+            background-color: lightcoral;
+            padding: 10px;
+            color: white;
+        }
+
+        h3, h4 {
+            color: purple;
+        }
+
+        /* Que 15 */
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            text-shadow: 3px 3px 5px gray;
+        }
+
+        .shadow-box {
+            width: 300px;
+            height: 150px;
+            background-color: lightblue;
+            margin: 50px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+        }
+
+        /* Que 16 */
+
+        .gradient-box {
+            width: 300px;
+            height: 150px;
+            margin: 20px auto;
+            color: white;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .linear-gradient {
+            background: linear-gradient(to right, red, yellow, green);
+        }
+
+        .radial-gradient {
+            background: radial-gradient(circle, blue, purple, pink);
+        }
+
+        /* Que 17 */
+        .plain-text {
+            font-size: 24px;
+        }
+
+        .big-text {
+            font-size: 40px;
+        }
+
+        .font-family-text {
+            font-family: "Courier New", monospace;
+            font-size: 32px;
+        }
+
+        .font-color-text {
+            color: darkblue;
+            font-size: 28px;
+        }
+
+        .font-style-text {
+            font-style: italic;
+            font-size: 28px;
+        }
+
+        .font-weight-text {
+            font-weight: bold;
+            font-size: 28px;
+        }
+
+        .font-variant-text {
+            font-variant: small-caps;
+            font-size: 28px;
+        }
+
+        /* Que 18 */
+       
+        .library-section {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 40px;
+}
+
+.library-section .custom-box {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
